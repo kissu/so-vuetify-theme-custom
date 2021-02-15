@@ -1,5 +1,7 @@
 <template>
   <v-row justify="center" align="center">
+    <button @click="$vuetify.theme.dark = true">Toggle to dark</button>
+    <button @click="$vuetify.theme.dark = false">Toggle to light</button>
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
         <logo />
